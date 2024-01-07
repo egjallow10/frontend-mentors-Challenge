@@ -58,3 +58,13 @@ body{
   line-height: 22px;
   
 }
+
+@media only screen and (max-width: 375px) {
+  .card{
+    width:280px;
+    background-color: var(--white);
+    border-radius: 20px;
+    margin: 50px auto;
+    
+  }
+}
